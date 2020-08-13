@@ -35,38 +35,73 @@
    * [Companion Computer Software](/introduction/required-software/companion-computer-software.md)
    * [QGroundControl Software](/introduction/required-software/qgroundcontrol-software.md)
 
-## Getting Started
+## Quick Start
+* [Building a Vehicle Frame](/quick-start/vehicle-frame.md)
+* [Installing QGroundControl](/quick-start/installing-qgc.md)
+* [Installing Companion Software Image](/quick-start/installing-companion.md)
+    * [Network Setup](/quick-start/installing-companion.md#network-setup)
+    * [Software Update](/quick-start/installing-companion.md#software-update)
+* [Installing Autopilot Firmware](/quick-start/installing-ardusub.md)
+    * [Frame Selection](/quick-start/installing-ardusub.md#frame-selection)
+    * [Completing Calibrations](/quick-start/installing-ardusub.md#completing-calibrations)
+* [First Dive](/quick-start/first-dive.md)
 
-* [Installation](getting-started/installation.md)
-    * [QGroundControl](getting-started/installation.md#qgroundcontrol)
-    * [ArduSub](getting-started/installation.md#ardusub)
-    * [Raspberry Pi](getting-started/installation.md#raspberry-pi)
-* [Initial Setup](getting-started/initial-setup.md)
+## Reference Documentation
 
-## Operator's Manual
-
-* [Joystick Button Functions](operators-manual/button-functions.md)
-* [Arming Checks](operators-manual/arming-checks.md)
-* [Flight Modes](operators-manual/flight-modes.md)
-* [Failsafes](operators-manual/failsafes.md)
-* [Logging](operators-manual/logging.md)
-* [Parameters](operators-manual/parameters.md)
-* [Full Parameter List](operators-manual/full-parameter-list.md)
-* [Troubleshooting](troubleshooting/troubleshooting.md)
-* [RC Input and Output](operators-manual/rc-input-and-output.md)
-* [Controlling Outputs](operators-manual/outputs.md)
-* [Recording Video](operators-manual/recording-video.md)
-* [Companion Web Interface](operators-manual/companion-web.md)
-* [Updating Software](operators-manual/software-update.md)
-
+* [QGroundControl](/reference/qgc-configuration.md)
+    * [Main Toolbar](/reference/qgroundcontrol/main-toolbar.md)
+    * [Application Settings View](/reference/qgroundcontrol/application-settings-view.md)
+    * [Vehicle Setup View](/reference/qgroundcontrol/vehicle-setup-view.md)
+    * [Plan View](/reference/qgroundcontrol/plan-view.md)
+    * [Fly View](/reference/qgroundcontrol/fly-view.md)
+      * [Recoding Video](/reference/qgroundcontrol/fly-view.md#video-stream)
+    * [Analyze View](/reference/qgroundcontrol/analyze-view.md)
+    * [Other Features](/reference/qgroundcontrol/other-features.md)
+      * [Telemetry Text Overlay Recording](/reference/qgroundcontrol/other-features.md#video-overlay)
+* [ArduSub](/reference/ardusub-configuration.md)
+    * [Vehicle Setup View](/reference/qgroundcontrol/vehicle-setup-view.md)
+      * [Summary Page](/reference/ardusub/summary-page.md)
+      * [Joystick Setup Page](/reference/ardusub/joystick-setup-page.md)
+      * [Sensors Setup Page](/reference/ardusub/sensors-setup-page.md)
+      * [Power Setup Page](/reference/ardusub/power-setup-page.md)
+      * [Motors Setup Page](/reference/ardusub/motors-setup-page.md)
+      * [Safety Setup Page (Failsafes)](/reference/ardusub/safety-setup-page.md)
+      * [Tuning Setup Page](/reference/ardusub/tuning-setup-page.md)
+      * [Camera Mount Setup Page](/reference/ardusub/camera-mount-setup-page.md)
+      * [Lights Setup Page](/reference/ardusub/lights-setup-page.md)
+      * [Frame Setup Page](/reference/ardusub/frame-setup-page.md)
+      * [Parameters Page](/reference/ardusub/parameters-page.md)
+    * [Features While in Operation](/reference/ardusub/features-while-in-operation.md)
+* [Companion Web Interface](/reference/companion-web-ui.md)
+    * [Network](/reference/companion/network.md)
+    * [System](/reference/companion/system.md)
+    * [Camera](/reference/companion/camera.md)
+    * [Routing](/reference/companion/routing.md)
+    * [MAVProxy](/reference/companion/mavproxy.md)
+    * [Git](/reference/companion/git.md)
+    * [Water Linked](/reference/companion/waterlinked.md)
+    * [Terminal Over Browser](/reference/companion/terminal-over-browser.md)
+    * [File System Access](/reference/companion/file-system.md)
+    * [MAVLink REST API](/reference/companion/mavlink-rest.md)
+* [Data Logging](/reference/data-logging.md)
+* [Troubleshooting](/reference/troubleshooting.md)
+    * [Vehicle Control](/reference/troubleshooting.html#vehicle-control)
+    * [No Telemetry](/reference/troubleshooting.html#no-telemetry-no-autopilot-connection)
+    * [No Video](/reference/troubleshooting.html#no-video)
+    * [Poor Video Streaming](/reference/troubleshooting.html#poor-video-streaming-performance)
+    * [Miscellaneous](/reference/troubleshooting.html#miscellaneous)
+    
 ## Developers
 
+* [RC Input and Output](/developers/rc-input-and-output.md)
+* [Full Parameter List](/developers/full-parameter-list.md)
 * [OpenCV](developers/opencv.md)
 * [Pymavlink](developers/pymavlink.md)
 * [SITL](developers/sitl.md)
+* [GPS Positioning](developers/gps-positioning.md)
+* [Wireless Topside](/developers/wireless-topside.md)
 * [Build ArduSub](developers/developers.md)
 * [Build this Documentation](developers/building-docs.md)
-* [GPS Positioning](developers/gps-positioning.md)
 
 ## Resources
 
@@ -77,6 +112,3 @@
     * [Raspberry Pi Image](resources/downloads.md#raspberry-pi-images)
 * [Further Reading](resources/further-reading.md)
     
-## Miscellaneous
-
-* [Wireless Topside](miscellaneous/wireless-topside.md)
